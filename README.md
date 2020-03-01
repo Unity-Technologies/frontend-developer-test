@@ -1,3 +1,31 @@
+# React frontend assignment
+
+## Description
+
+Your task is to implement a component or a set of components allowing the users to fetch and display change history of **users** and **projects** in separate tables according to the designs and requirements below. Please provide unit tests for your code.
+
+## Requirements
+- Handle the loading state
+- Handle the error state (every second call to fetch users or projects will result in an error)
+- Make sure the table can be browsed also on smaller screens
+- By default table data should be sorted in reverse chronological order (newest first)
+- Users should be able to sort by the **Date** column only and be able to toggle between reverse chronological and chronological order
+- After fetching new entries, table should be re-sorted according to currently selected sorting order
+
+## Screenshots
+
+### Default state
+![Screen Shot 2020-03-03 at 13 25 01](https://user-images.githubusercontent.com/3663640/75771396-919e6600-5d52-11ea-96db-7a6c5e71c780.png)
+
+### Loading state
+![Screen Shot 2020-03-03 at 13 25 16](https://user-images.githubusercontent.com/3663640/75771400-93682980-5d52-11ea-9439-dfeea61e24a4.png)
+
+### Error state
+![Screen Shot 2020-03-03 at 13 25 09](https://user-images.githubusercontent.com/3663640/75771398-92cf9300-5d52-11ea-8d06-660cd55bb1a1.png)
+
+
+# Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -16,53 +44,3 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
