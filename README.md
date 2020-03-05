@@ -2,7 +2,7 @@
 
 ## Description
 
-Your task is to implement a component or a set of components allowing the users to fetch and display change history of **users** and **projects** in separate tables according to the designs and requirements below. Please provide unit tests for your code.
+Your task is to implement a component or a set of components allowing the users to fetch and display change history of **users** and **projects** in separate tables according to the designs and requirements below. You can use the provided packages and add new ones if necessary. Please provide unit tests for your code.
 
 ## Requirements
 - Handle the loading state
