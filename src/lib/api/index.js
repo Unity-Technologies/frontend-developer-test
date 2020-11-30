@@ -17,7 +17,7 @@ const resolveOrRejectCollection = (timesCalled, collection) => () => {
       if (timesCalled % 2 === 0) {
         return reject({
           code: 500,
-          error: 'Uknown error',
+          error: 'Unknown error',
         });
       }
 
